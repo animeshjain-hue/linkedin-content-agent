@@ -1,0 +1,27 @@
+[
+  {
+    "topic_lane": "ai_for_pms",
+    "sub_topic": "agentic_systems_for_pms",
+    "context_note": "Angle: the gap between 'AI agent' demos and what PMs can actually trust in production — use a concrete failure example"
+  },
+  {
+    "topic_lane": "pm_craft",
+    "sub_topic": "stakeholder_management",
+    "context_note": ""
+  },
+  {
+    "topic_lane": "ai_for_pms",
+    "sub_topic": "llm_tools_evaluation",
+    "context_note": "Angle: how PMs should evaluate LLM tools — not by the wow factor in week 1 but by whether it survives week 3"
+  },
+  {
+    "topic_lane": "pm_craft",
+    "sub_topic": "analytics_and_metrics",
+    "context_note": ""
+  },
+  {
+    "topic_lane": "pm_craft",
+    "sub_topic": "career_and_learning",
+    "context_note": "Angle: something I believed about PM careers for years that turned out to be wrong — with the data that changed my mind"
+  }
+]

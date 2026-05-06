@@ -1,0 +1,55 @@
+# topics.yaml — Content lanes and sub-topics
+# v1 — updated 2026-05-01 after full 47-post corpus analysis.
+#
+# lane_weight: target % of weekly posts (must sum to 1.0)
+# NOTE: historical distribution (47 posts) is pm_craft ~65%, ai_for_pms ~15%,
+#       indian_startup ~15%, healthcare_ai 0%. Weights below reflect INTENDED
+#       future direction, not past behavior. healthcare_ai is aspirational.
+# sub-topics are seed angles, not an exhaustive list.
+
+lanes:
+
+  ai_for_pms:
+    lane_weight: 0.45
+    description: >
+      AI tools and systems examined through a product manager's lens.
+      Not "AI is amazing" — but specific product decisions, UX gaps,
+      and strategic implications that PMs notice and others miss.
+    sub_topics:
+      - llm_tooling_critique        # What ChatGPT/Claude/Perplexity gets wrong as a product (feature gaps, UX debt)
+      - agentic_systems_for_pms     # Building/using agents to do PM work — workflows, prompts, evaluation
+      - ai_product_strategy         # How AI shifts prioritization, roadmaps, and build-vs-buy decisions
+      - ai_in_indian_startups       # How Indian product companies are adopting (or not adopting) AI
+      - ai_ux_and_trust             # When AI gets user trust right or wrong — hallucinations, confidence, transparency
+
+  pm_craft:
+    lane_weight: 0.35
+    description: >
+      The actual practice of product management: decisions, trade-offs,
+      stakeholder dynamics, and career. Grounded in real work, not theory.
+      Indian startup context preferred over generic Silicon Valley takes.
+      Historically the dominant lane (~65% of all posts written).
+    sub_topics:
+      - strategy_teardowns          # Decoding a company's move (Zomato/Dua Lipa, Rapido, Blinkit) — highest-reach format
+      - execution_vs_project_mgmt   # What real execution means vs. JIRA hygiene — corpus shows this resonates (posts 24, 40)
+      - prioritization_in_practice  # How to actually decide what to build; saying no to 80% of asks
+      - data_and_decisions          # Using analytics rightly — not just "be data-driven" (posts 29, 41, 45)
+      - stakeholder_management      # Engineering, design, leadership — alignment without authority
+      - career_and_learning         # Honest career reflections: failures, pivots, the IIT privilege myth (posts 23, 40)
+      - b2b_pm_contrarian           # B2B product is underrated — the frustration post (35) got 133R/22C with no impressions data
+
+  healthcare_ai:
+    lane_weight: 0.20
+    description: >
+      Healthcare and pharma in India, specifically where AI and product
+      intersect. Animesh leads ePharmacy & Generics at Tata 1mg —
+      this lane reflects lived operational knowledge, not punditry.
+      WARNING: Zero posts in 47-post corpus. This is a future lane, not a
+      demonstrated one. Only post here when there is genuine first-hand
+      experience to draw from. Do not manufacture healthcare content.
+    sub_topics:
+      - epharmacy_ops_and_ux        # Prescription flows, substitution logic, delivery UX, patient trust
+      - generics_market_india       # Why generic adoption is low, what changes that, role of product/AI
+      - ai_in_clinical_workflows    # Where AI is actually useful in Indian healthcare (not just hype)
+      - patient_safety_and_ethics   # Dark patterns in health apps, data privacy, gig worker safety
+      - regulatory_constraints      # How Schedule H, NPPA pricing, and DCA shape what you can build

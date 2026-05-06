@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Project — never commit
+.env
+data/brain.db
+data/seed_posts/
+data/strategy_current.md
+data/eval_history.jsonl
+data/voice_guide.md
+logs/
+
+# OS
+.DS_Store

@@ -1,0 +1,39 @@
+# config.yaml — tunables (no secrets here; secrets go in .env)
+
+models:
+  writer: "claude-opus-4-7"
+  strategist: "claude-opus-4-7"
+  critic: "claude-haiku-4-5-20251001"
+  ideator: "claude-haiku-4-5-20251001"
+  analyst: "claude-haiku-4-5-20251001"
+  evaluator: "claude-haiku-4-5-20251001"
+  mapper: "claude-haiku-4-5-20251001"
+
+agent_defaults:
+  temperature: 0.7
+  critic_temperature: 0.3
+  max_tokens: 2000
+  ideator_max_tokens: 4096
+
+schedule:
+  daily_run_time: "07:00"       # local time — morning ideation + writing
+  weekly_run_day: "monday"
+  weekly_run_time: "08:00"
+  news_poll_interval_hours: 6
+
+news_feeds:
+  - name: et_tech
+    url: "https://economictimes.indiatimes.com/tech/rssfeeds/13357270.cms"
+  - name: yourstory
+    url: "https://yourstory.com/feed"
+  - name: inc42
+    url: "https://inc42.com/feed/"
+  - name: techcrunch_ai
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+  - name: hacker_news_top
+    url: "https://hnrss.org/frontpage"
+
+content:
+  drafts_per_run: 2
+  top_angles_per_run: 5
+  auto_approve_threshold: 8.5   # critic score out of 10 (Phase 2+, unused in Phase 1)
