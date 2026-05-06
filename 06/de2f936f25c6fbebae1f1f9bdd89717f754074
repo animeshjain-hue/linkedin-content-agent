@@ -1,0 +1,174 @@
+wiki/Design-Philosophy.md
+  3adaac2128283657 1-105
+README.md
+  3adaac2128283657 1-206
+wiki/Prompt-Engineering.md
+  3adaac2128283657 1-205
+src/outputs/typefully.py
+  078b34df31673366 1-61
+tests/test_voice_match.py
+  078b34df31673366 1-147
+src/agents/base.py
+  078b34df31673366 1-50
+src/brain/posts.py
+  3adaac2128283657 47,57-60
+  078b34df31673366 1-46,48-56,61-122
+scripts/run_weekly.py
+  078b34df31673366 1
+src/brain/similarity.py
+  078b34df31673366 1-29
+prompts/critic.md
+  078b34df31673366 1-40
+src/config.py
+  078b34df31673366 1-39
+src/brain/db.py
+  078b34df31673366 1-59
+scripts/run_daily.py
+  078b34df31673366 1-22,24-45,47-50,68-82,84-132
+  3adaac2128283657 23,46,51-67,83
+prompts/writer.md
+  078b34df31673366 1-63
+src/brain/voice.py
+  078b34df31673366 1-3,5-7
+  3adaac2128283657 4,8-18
+src/agents/strategist.py
+  078b34df31673366 1
+scripts/test_typefully.py
+  078b34df31673366 1-24
+src/agents/mapper.py
+  078b34df31673366 1-56
+src/schemas.py
+  078b34df31673366 1-60
+src/agents/critic.py
+  078b34df31673366 1-67
+prompts/voice_eval.md
+  078b34df31673366 1-71
+.python-version
+  078b34df31673366 1
+migrations/001_init.sql
+  078b34df31673366 1-41
+prompts/analyst.md
+  078b34df31673366 1-8
+wiki/HITL-Design.md
+  3adaac2128283657 1-84
+src/llm.py
+  078b34df31673366 1-93
+scripts/import_linkedin_export.py
+  078b34df31673366 1-167
+wiki/Data-Model.md
+  3adaac2128283657 1-167
+data/voice_guide.example.md
+  3adaac2128283657 1-126
+wiki/The-PM-Operating-System-Vision.md
+  3adaac2128283657 1-71
+src/agents/evaluator.py
+  078b34df31673366 1-73
+tests/test_brain.py
+  078b34df31673366 1-144
+wiki/Voice-Match-Eval-Suite.md
+  3adaac2128283657 1-163
+wiki/Home.md
+  3adaac2128283657 1-67
+tests/conftest.py
+  078b34df31673366 1-24
+src/agents/writer.py
+  078b34df31673366 1-121
+wiki/Configuration-Reference.md
+  3adaac2128283657 1-160
+src/agents/analyst.py
+  078b34df31673366 1
+src/inputs/reading.py
+  078b34df31673366 1
+src/inputs/work_artifacts.py
+  078b34df31673366 1
+wiki/Agent-Directory.md
+  3adaac2128283657 1-254
+src/inputs/voice_notes.py
+  078b34df31673366 1
+prompts/ideator.md
+  078b34df31673366 1,3-4,6-7
+  3adaac2128283657 2,5,8-68
+.env.example
+  078b34df31673366 1-18
+prompts/angle_mapper.md
+  078b34df31673366 1-32
+src/cli.py
+  078b34df31673366 4-17,24-57,103-107,109-111,115-116,118-126,128-131,149-163,165-206,208,210-214
+  3adaac2128283657 1-3,18-23,58-102,108,112-114,117,127,132-148,164,207,209
+src/agents/ideator.py
+  3adaac2128283657 1-173
+src/outputs/telegram_bot.py
+  078b34df31673366 1-162
+wiki/What-I-Got-Wrong.md
+  3adaac2128283657 1-119
+.pre-commit-config.yaml
+  078b34df31673366 1-16
+wiki/System-Architecture.md
+  3adaac2128283657 1-186
+.gitignore
+  078b34df31673366 1-16,18-21
+  3adaac2128283657 17
+pyproject.toml
+  078b34df31673366 1-70
+prompts/strategist.md
+  078b34df31673366 1-8
+wiki/Daily-Workflow.md
+  3adaac2128283657 1-127
+src/inputs/news.py
+  3adaac2128283657 1-138
+CLAUDE.md
+  078b34df31673366 1-354,360-374,379-387
+  4bfdca4d416fdccc 355,376,378
+  3adaac2128283657 356-359,375,377
+config.yaml
+  3adaac2128283657 16
+  078b34df31673366 1-15,17-39
+tests/fixtures/voice_eval_prompts.json
+  078b34df31673366 1-27
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "06de2f936f25c6fbebae1f1f9bdd89717f754074",
+  "prompts": {
+    "078b34df31673366": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fa6af045-c528-4c4b-b5e1-6a674a3422c1",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Animesh",
+      "messages": [],
+      "total_additions": 2845,
+      "total_deletions": 236,
+      "accepted_lines": 2587,
+      "overriden_lines": 0
+    },
+    "3adaac2128283657": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ad0ed983-a1a1-4d93-a74f-0ba374088110",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Animesh",
+      "messages": [],
+      "total_additions": 2560,
+      "total_deletions": 43,
+      "accepted_lines": 2539,
+      "overriden_lines": 0
+    },
+    "4bfdca4d416fdccc": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d105d6f3-89ca-4c8a-aeed-25b73d50997d",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Animesh",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 2,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
